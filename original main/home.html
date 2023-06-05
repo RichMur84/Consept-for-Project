@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lora&display=swap" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Whats your Mood</title>
+  </head>
+  <body class="home">
+    <div id="template1area"></div>
+    <header class="header">
+      <div class="container">
+        <div class="intoduction">
+          <h1 class="name">Whats Your Mood</h1>
+          <h2 class="story">A Short Collection Of Stories</h2>
+          <h4 class="about">A place to read and submit short stories</h4>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar sticky-top">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#books">Our Library</a></li>
+        <div class="dropdown">
+          <button class="dropbtn">Genre</button>
+          <div class="dropdown-content">
+            <a onclick="window.location.href = '/horror/horror.html';">Horror</a>
+            <a onclick="window.location.href = '/horror/children.html';">Children</a>
+            <a onclick="window.location.href = '/horror/fantasy.html';">Fantasy</a>
+            <a onclick="window.location.href = '/horror/mystery.html';">Mystery</a>
+          </div>
+        </div>
+        
+              <button onclick="window.location.href = '/signup/signon/login.html';">Sign In</button>
+            </button>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <main>
+      <h2>Welcome to the Library</h2>
+      <p>
+        Welcome to the vibrant and captivating short story website, a sanctuary
+        for all lovers of literature and creativity. Here, your imagination
+        knows no bounds as you delve into a treasure trove of original tales and
+        embark on literary adventures crafted by talented writers from around
+        the world. Whether you yearn to get lost in a fantastical realm, explore
+        the depths of human emotion, or uncover thrilling mysteries, our virtual
+        library offers a myriad of stories to satisfy every literary appetite.
+        We extend a warm invitation for you to become both reader and author on
+        our platform
+      </p>
+    </main>
+    <section>
+      <a href="../image/children_4.jpg" 
+
+      <div class="bookfinder-fields">
+        <a id="book-finder"></a>
+        <h4 class="heart-header nomargin-bottom">Find me a random books to read!...</h4>
+        <div class="space-10"></div>
+        <form>
+          <label>Select a genre:</label>
+          <select class="custom-select" id="genre-selection">
+            <option value="none">Select an Option</option>
+            <option value="childrens-literature">Children's Literature</option>
+            <option value="picture-books">- Picture Books</option>
+            <option value="classic">Classic</option>
+            <option value="horror">Horror</option>
+            <option value="humor">Humor</option>
+            <option value="graphic-novel">Graphic Novel</option>
+            <option value="literary-fiction">Literary Fiction</option>
+            <option value="manga">Manga</option>
+            <option value="mysterythriller">Mystery/Thriller</option>
+            <option value="nonfiction">Nonfiction</option>
+            <option value="memoir">- Memoir</option>
+            <option value="crafting">- Crafting</option>
+            <option value="cookbook">- Cookbook</option>
+            <option value="not-a-book">Not a Book</option>
+            <option value="poetry">Poetry</option>
+            <option value="romance">Romance</option>
+            <option value="historical-other">Historical: Other</option>
+            <option value="inspirational-romance">Inspirational</option>
+            <option value="paranormal">- Paranormal</option>
+            <option value="science-fictionfantasy">Science Fiction/Fantasy</option>
+            
+          </select>
+        </form>
+
+        <div class="space-10"></div>
+        <a id="theme-url-btn" href="" sl-processed="1">Show Me the Books!</a>
+      </div>
+    </section>
+
+    <footer>&copy; 2023 What your Mood. All rights reserved.
+      <br>
+      <h4>Made by:❤️</h4>
+    </footer>
+    <script src="myHandlebars.js"></script>
+  </body>
+  <script src="./script.js"></script>
+</html>
